@@ -1,0 +1,49 @@
+1. Create git repository on git.epam.com/github.com
+2. Clone using SSH/HTTPS keys
+3. Create 3 commits in master branch
+4. Create new "dev" branch and push 2 commits inside
+5. Merge "dev" to "master"
+* 6. Add 2 additional commits to "dev", 1 commit in master. Rebase "dev" with new commits from "master"
+* 7. Add 2 additonal commits in "dev". Cherry-pick first commit to master. Revert the second commit.
+
+Please check out the following guide about commit message naming: http://chris.beams.io/posts/git-commit/
+As the result share the link to the repo with your mentor.
+
+
+Scoring criteria
+-- Each step is of 1 mark 
+-- Complete the Optional tasks to gain bonus marks
+
+
+
+# Clone the git repo:
+git clone https://remote-git-repo-url/demoproject
+
+
+
+Create a new dev branch
+Do your work on local dev branch
+Push dev branch from your local to central git repository
+Once your work is done, merge dev branch to master
+Finally, delete the dev branch from both local and central git repository
+
+ commands:-
+# Create new dev branch, do your work, and commit changes locally
+git checkout -b dev
+vi index.html
+git commit -m "Made the change.." index.html
+
+# Push your changes to remote dev branch
+git push --set-upstream origin dev
+
+# Merge dev branch to master
+git checkout master
+git merge dev
+
+# Finally, delete dev branch both locally and remote
+git branch -d dev
+git branch -d -r origin/dev
+
+
+https://www.thegeekstuff.com/2019/03/git-create-dev-branch-and-merge/
+https://www.atlassian.com/git/tutorials/using-branches/git-checkout
