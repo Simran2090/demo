@@ -1,0 +1,57 @@
+cobalt document is composed of .net module 
+(pulls documnt frm a data provider n display them to user)
+  
+conversion(xml to xhtml)
+pagination
+user annotation
+highlights and navigation search terms
+document delivery
+search within a doc
+copy with reference(frm where info came)
+document metadata(user can ebter the doc to folder etc)
+
+different data providers are there
+novus(stores most of research documents)
+data room(most of user documents and annoations)
+data orchestration(compile complex reports)
+public records service(secured service where we can get data about people)
+gateways(data from court)
+
+products using cobalt document module :-
+westlaw next
+carswell
+concourse
+firm central
+rattlesnake
+small law workbench
+weslaw next tax
+forms westlaw
+drafting westlaw
+goverment web links
+
+
+application layer:-
+controllers
+components
+pipelines
+providers and proxies
+product factory
+
+
+
+features of document:-
+toolbar(return to left (back button) ,
+navigation for document,
+navigation to next keyword ,
+show keycite flags,
+go to page no.,
+bell,
+search,
+highlight n make note also
+(select something and copy with reference dropdown in),
+download,
+save to folder like bookmarks,
+maximize,download,
+
+
+
